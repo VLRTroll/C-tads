@@ -64,6 +64,10 @@ int main(int argc, char const *argv[]) {
   removeAt(list,3);
   logMap(list);
 
+  Item item = removeAt(list,2);
+  printItem(item);
+  printf("removido da lista\n");
+  logMap(list);
 
   destroy(list, freeItem);
   return 0;

@@ -128,7 +128,8 @@ Item pop(List* list) {
     }
   }
   free(list->last); //Destroi seu nó
-  list->last = aux->next = NULL;
+  list->last = aux;
+  aux->next = NULL;
   list->length--;
   return item;
 }
