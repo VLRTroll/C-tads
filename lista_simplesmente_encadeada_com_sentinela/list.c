@@ -168,7 +168,7 @@ void removeItem(List* list, Item item, int (*cmpItem)(Item,Item), void (*destroy
 Item removeAt(List* list, int index) {
   if (invalidIndex(index)) return NULL;
   if (empty(list)) return NULL;
-  if (list->length == index) return pop(list);
+  if (index == list->length - 1) return pop(list);
 
   if (!index) {
     Node* aux = list->first;
