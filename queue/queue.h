@@ -1,7 +1,7 @@
 #ifndef __QUEUE_H__
 #define __QUEUE_H__
 
-// Value returned when trying to dequeue a empty queue
+// Value returned when trying to dequeue an empty queue
 #define DEFAULT_VALUE 0
 typedef int QueueInfo; /* use void* for a generic queue */
 
