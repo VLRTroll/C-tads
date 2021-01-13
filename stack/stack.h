@@ -1,5 +1,5 @@
-#ifndef __STACK_Q__
-#define __STACK_Q__
+#ifndef __STACK_H__
+#define __STACK_H__
 
 // Value returned when trying to pop from an empty stack
 #define DEFAULT_VALUE 0
